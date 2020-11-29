@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 375px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(235, 235, 235);
+  box-shadow: 10px 5px 10px 5px rgb(190, 190, 190);
+}
+
+.app-main {
+  width: 90%;
+  padding: 20px;
+  margin-top: -30px;
+  background: white;
+  border-radius: 10px 10px;
+  height: 450px;
+  box-shadow: 2px 2px 5px 1px rgb(190, 190, 190);
+}
+
+.sign {
+  text-align: center;
+}
+
+.app-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px 0px;
+  margin-top: -30px;
+  background: white;
+  border-radius: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px 1px rgb(190, 190, 190);
+}
+
+.dropdown-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}
+
+.arrow-down {
+  width: 30px;
+  padding: 0px 0px 0px 0px;
+  transform: rotate(90deg);
+  transition: all ease 0.4s;
+}
+
+.arrow-open {
+  transform: none;
+}
+
+.code-container {
+  background: rgb(29, 0, 41);
+  color: white;
+  overflow-x: scroll;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.code-container-extra {
+  background: rgb(29, 0, 41);
+  color: white;
+  overflow-x: scroll;
+  font-size: 18px;
+  padding: 10px;
+  width: 600px;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+
+.cyan {
+  color: cyan
+}
+
+.purple {
+  color: darkmagenta;
+}
+
+.indent {
+  padding-left: 10px;
+}
