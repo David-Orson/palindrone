@@ -3,11 +3,11 @@ import React from 'react';
 import "../css/Input.css"
 
 const Input = (props) => {
-  const {string, setString, reverser} = props
+  const {string, setString, palindroneTest} = props
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    reverser(string)
+    palindroneTest(string)
   } 
 
   return (
