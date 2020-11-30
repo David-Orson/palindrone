@@ -12,26 +12,14 @@ const App = () => {
   const [string, setString] = useState('')
   const [palindrone, setPalindrone] = useState(null);
 
-  const reverser = (string) => {
+  const palindroneTest = (string) => {
     if (string) {
       let reversed = (string.split('').reverse().join(''))
 
       setPalindrone(((reversed === string).toString()));
     } else {
       setPalindrone('error')
-    }
-    
-
-
-    /* let reversed = '';
-
-    for (let character of string) {
-      reversed = character + reversed;
-    }
-
-    setReversedString(reversed) */
-
-    /* setReversedString(string.split('').reduce((rev, char) => char + rev, '')); */
+    }    
   }
 
   return (
@@ -39,7 +27,7 @@ const App = () => {
       <div className="app">
         <Header />
         <div className="app-main">
-          <Input string={string} setString={setString} reverser={reverser} />
+          <Input string={string} setString={setString} palindroneTest={palindroneTest} />
           <Output palindrone={palindrone} />
           <p className="sign">App by David Orson</p>
         </div>
