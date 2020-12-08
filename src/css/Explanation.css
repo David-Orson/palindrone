@@ -1,0 +1,31 @@
+.explanation { 
+  width: 95%;
+  border-radius: 4px;
+  border: solid grey 2px;
+  height: 42px;
+  transition: all ease 0.5s;
+  overflow: hidden;
+}
+
+.explanation-opened {
+  height: 300px;
+}
+
+.explanation-title {
+  margin: 10px;
+}
+
+.explanation-dropdown {
+  border: solid grey 2px;
+  margin-top: 10px;
+  width: calc(100% + 4px);
+  margin-left: -2px;
+  margin-bottom: -2px;
+  overflow-y: scroll;
+  overflow-x: unset;
+  height: 260px;
+}
+
+.explanation-text {
+  margin: 10px;
+}

@@ -1,4 +1,5 @@
 .output {
+  height: 181px;
   padding: 20px;
   text-align: center;
 }
@@ -14,6 +15,8 @@
 
 .result {
   margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .result-tagline {
